@@ -22,6 +22,6 @@ def detect_fake_picture(pathd):
     return "Real - No signs of fakeness detected"
 
 
-pathd = "images/Sirisha.jpg"
+pathd = "images/Dhatri.jpg"
 result = detect_fake_picture(pathd)
 print(result)
