@@ -6,7 +6,7 @@ def detect_fake_picture(pathd):
 
     
     average_color = np.average(img, axis=(0, 1))
-    if np.any(average_color < 50) or np.any(average_color > 200):
+    if np.any(average_color < 10) or np.any(average_color > 100):
         return "Fake - Strange colors detected"
 
 
